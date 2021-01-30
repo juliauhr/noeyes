@@ -1,0 +1,264 @@
+
+html{
+  cursor: url("images/hand.png"), auto;
+}
+
+body{
+  font-family: 'Major Mono Display', monospace;
+  color:white;
+  background-color:white;
+  text-align:center;
+}
+.clickable{
+  border:1px solid transparent;
+}
+.outlined:hover{
+  border:1px dotted grey;
+}
+
+.game{
+  width:100%;
+  position:absolute;
+  top:0px;
+  left:0px;
+  z-index:1;
+  transition:width 3s;
+}
+
+#playButton{
+  font-size:20px;
+  width:60px;
+  margin:auto;
+  border:1px solid white;
+}
+#playButton:hover{
+  text-transform: uppercase;
+}
+
+#nextButton{
+  display:none;
+  visibility:hidden;
+  font-size:20px;
+  width:60px;
+  margin:auto;
+  border:1px solid gainsboro;
+}
+#nextButton:hover{
+  text-transform: uppercase;
+}
+
+#dude{
+  width:600px;
+  position:relative;
+  transition:transform 7s ease-in, width 7s ease-in;
+  z-index:2;
+  pointer-events:none;
+}
+
+#glass{
+  position:absolute;
+  transform:translate(-60%,-60%);
+  background-color:rgba(0,0,200,.3);
+  width:100px;
+  height:100px;
+  border: 1px solid red;
+  border-radius:50%;
+  z-index:-5;
+}
+
+#imageContainer{
+  position:absolute;
+  left: 0px;
+  right: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width:500px;
+  height:600px;
+  overflow:hidden;
+  border:1px solid black;
+  visibility:hidden;
+}
+
+#kand0{
+  width:100%;
+}
+#kand0a{
+  position:absolute;
+  top:32%;
+  left:47%;
+  transition:top 2s linear, left 2s linear;
+  transition-delay: 2s;
+}
+#kand0b{
+  position:absolute;
+  top:10%;
+  left:15%;
+  width:40%;
+  transition:transform 2s;
+}
+
+#kand1{
+  width:100%;
+}
+#kand1a{
+  width:110px;
+  height:30px;
+  position:absolute;
+  top:110px;
+  left:113px;
+  transition:height 2s;
+}
+#kand1b{
+  width:50px;
+  height:50px;
+  position:absolute;
+  top:159px;
+  left:393px;
+  transition:top 2s;
+}
+#kand1c{
+  width:92px;
+  height:92px;
+  position:absolute;
+  top:337px;
+  left:88px;
+}
+
+#kand2{
+  width:100%;
+  position:absolute;
+  top:-100px;
+  left:0px;
+}
+#kand2a{
+  height:100px;
+  position: absolute;
+  top:490px;
+  left:80px;
+  transition:transform 2s;
+}
+#kand2c{
+  height:550px;
+  width:335px;
+  position: absolute;
+  top:-20px;
+  left:23px;
+  transition:width 2s, left 2s, top 2s;
+}
+#kand2b{
+  height:20px;
+  width:80px;
+  position: absolute;
+  top:170px;
+  left:10px;
+  transition:height 2s;
+}
+
+#kand3{
+  width:100%;
+}
+#kand3a{
+  width:600px;
+  position: absolute;
+  top:0px;
+  left:-100px;
+  transition:transform 4s;
+}
+#kand3b{
+  width:600px;
+  position: absolute;
+  top:0px;
+  left:-100px;
+  transition:transform 4s;
+}
+#kand3c{
+  width:600px;
+  position: absolute;
+  top:0px;
+  left:-100px;
+  transition:transform 4s;
+}
+#button3a{
+  width:30px;
+  height:30px;
+  position:absolute;
+  top:45px;
+  left:95px;
+}
+#button3b{
+  width:30px;
+  height:30px;
+  position:absolute;
+  top:45px;
+  left:50px;
+}
+#button3c{
+  width:50px;
+  height:50px;
+  position:absolute;
+  top:298px;
+  left:395px;
+}
+
+#kand4{
+  width:100%;
+  position: absolute;
+  top:-50px;
+  left:0px;
+}
+#kand4b{
+  width:700px;
+  position: absolute;
+  top:-50px;
+  left:-100px;
+  transition:width 5s, transform 5s;
+}
+#kand4a{
+  width:260px;
+  height:250px;
+  position: absolute;
+  top:330px;
+  left:-300px;
+  transition:left 5s;
+}
+#eye0{
+  width:100px;
+  position: absolute;
+  top:130px;
+  left:70px;
+  transition:width 2s, top 4s;
+}
+#eye1{
+  width:80px;
+  position: absolute;
+  top:50px;
+  left:250px;
+  transition:width 2s, top 4s;
+}
+#eye2{
+  width:130px;
+  position: absolute;
+  top:230px;
+  left:350px;
+  transition:width 2s, top 4s;
+}
+#eye3{
+  width:100px;
+  position: absolute;
+  top:80px;
+  left:310px;
+  transition:width 2s, top 4s;
+}
+
+
+
+#credits{
+  width:80%;
+  position:absolute;
+  top:100px;
+  left:0px;
+  right:0px;
+  color:grey;
+  font-family:georgia, serif;
+  margin:auto;
+}
