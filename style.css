@@ -50,7 +50,7 @@ body{
 #dude{
   width:600px;
   position:relative;
-  transition:transform 7s ease-in, width 7s ease-in;
+  transition:transform 7s ease-in-out, width 7s ease-in-out;
   z-index:2;
   pointer-events:none;
 }
