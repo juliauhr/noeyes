@@ -31,12 +31,13 @@ body{
   left:0px;
   width:100%;
   display:none;
+  z-index:-4;
 }
 #playButton{
   font-size:20px;
   width:60px;
   margin:auto;
-  border:1px solid white;
+  border:1px solid gainsboro;
 }
 #playButton:hover{
   text-transform: uppercase;
