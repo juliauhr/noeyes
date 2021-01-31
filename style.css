@@ -25,6 +25,13 @@ body{
   transition:width 3s;
 }
 
+#backgroundEyes{
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:100%;
+  display:none;
+}
 #playButton{
   font-size:20px;
   width:60px;
@@ -109,12 +116,14 @@ body{
   transition:height 2s;
 }
 #kand1b{
-  width:50px;
-  height:50px;
+  width:0px;
+  /*height:50px;*/
   position:absolute;
-  top:159px;
-  left:393px;
-  transition:top 2s;
+  /*top:159px;
+  left:393px;*/
+  top:120px;
+  left:150px;
+  transition:width 3s, left 2s, top 2s;
 }
 #kand1c{
   width:92px;
@@ -152,6 +161,15 @@ body{
   top:170px;
   left:10px;
   transition:height 2s;
+}
+#eye2a{
+  width:50px;
+  position: absolute;
+  /*top:300px;
+  left:270px;*/
+  top:160px;
+  left:350px;
+  transition:width 1s linear, top 2s linear, left 2s linear;
 }
 
 #kand3{
