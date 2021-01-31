@@ -233,10 +233,10 @@ document.addEventListener('mousemove', onMouseMove);
 
 document.getElementById("nextButton").addEventListener("click", nextLevel);
 
+/*nextLevel();
 nextLevel();
 nextLevel();
-nextLevel();
-nextLevel();
+nextLevel();*/
 
 function nextLevel(){
   clicks = 0;
