@@ -224,6 +224,7 @@ function winCheck(num){
 }
 
 
+
 const onMouseMove = (e) =>{
   glass.style.left = e.pageX + 'px';
   glass.style.top = e.pageY + 'px';
